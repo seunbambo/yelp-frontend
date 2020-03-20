@@ -1,6 +1,10 @@
 import React from "react";
-import { LandingPage } from "./../LandingPage/LandingPage";
+import { NavBar } from "../NavBar/NavBar";
 
 export function Search() {
-  return <div>Search</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
