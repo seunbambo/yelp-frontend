@@ -10,10 +10,10 @@ export function SearchResultsSummary() {
         </h1>
         <p>Showing 1-20 out of 543 results</p>
       </div>
-      <div className="styles.filters">
+      <div className={styles.filters}>
         <button className="button">
           <span className="icon">
-            <i className="fas fa-sliders-h"></i>
+            <i className="fas fa-sliders-h" />
           </span>
           <span>All Filters</span>
         </button>
@@ -25,13 +25,13 @@ export function SearchResultsSummary() {
         </div>
         <button className="button">
           <span className="icon">
-            <i className="fas fa-clock"></i>
+            <i className="fas fa-clock" />
           </span>
           <span>Open Now</span>
         </button>
         <button className="button">
           <span className="icon">
-            <i className="fas fa-dollar-sign"></i>
+            <i className="fas fa-dollar-sign" />
           </span>
           <span>Cashback</span>
         </button>
