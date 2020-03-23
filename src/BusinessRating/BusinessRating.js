@@ -11,6 +11,7 @@ export function BusinessRating() {
         fractions={2}
         initialRating={3}
       />
+      <p>724 Reviews</p>
     </div>
   );
 }
